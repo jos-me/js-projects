@@ -36,19 +36,22 @@ The `minifies version of boostrap` will be found in a separate folder inside the
 
 - Additionally, The color indicator will be used to show the count being positive or negative
 
+![Screenshot](/%231-counter-app/counter-app.png?raw=true "counter App")
+
 #### Key Learning Concepts
 
 In this project I practices
+
 - working with DOM
-    - document.querySelectorAll()
-    - document.querySelector()
-    - addEventListener() 
-    - currentTarget property
-    - textContent property
-    - classList property
-    
+  - document.querySelectorAll()
+  - document.querySelector()
+  - addEventListener()
+  - currentTarget property
+  - textContent property
+  - classList property
 - working with high-order array method
-    - forEach()
+
+  - forEach()
 
 - working with conditional statement
   - if..else if.. else
