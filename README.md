@@ -65,6 +65,8 @@ In this project I practices
 
 - Also, output will be represented as css declaration block
 
+![Screenshot](/%232-color-flipper/color-flipper.png)
+
 #### Key Learning Concepts
 
 In this project I practices
