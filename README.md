@@ -6,6 +6,7 @@ This is the collection of all possible Javascript projects (from the internet) n
 
 - [Overview](#overview)
 - [Projects](#projects)
+  - [Counter App](#1-counter-app)
 
 ## Overview
 
@@ -28,3 +29,26 @@ The project starter folder will have all neccessary setup for next project, it w
 The `minifies version of boostrap` will be found in a separate folder inside the main directory so to make it easy accessible to all project.
 
 ## Projects
+
+### 1. Counter App
+
+- This project is about creating a counter app that will increase, decrease or reset the counts following user interaction(Button clicking)
+
+- Additionally, The color indicator will be used to show the count being positive or negative
+
+#### Key Learning Concepts
+
+In this project I practices
+- working with DOM
+    - document.querySelectorAll()
+    - document.querySelector()
+    - addEventListener() 
+    - currentTarget property
+    - textContent property
+    - classList property
+    
+- working with high-order array method
+    - forEach()
+
+- working with conditional statement
+  - if..else if.. else

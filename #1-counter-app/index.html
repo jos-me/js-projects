@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/counter.css" />
+    <title>Counter | Javascript</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand navbar-light bg-light shadow">
+        <div class="container">
+          <h1 class="navbar-brand fs-6 mt-1">Counter</h1>
+
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="" class="nav-link me-3 fs-6">Prev</a>
+            </li>
+            <li class="nav-item"><a href="" class="nav-link fs-6">Next</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="border-bottom pb-5 pt-4">
+        <div class="d-flex justify-content-center vh">
+          <div class="counter my-5">
+            <div class="text-center mb-5">
+              <h2 id="counter-value" class="text-secondary">0</h2>
+            </div>
+            <div
+              id="decrement"
+              class="btn btn-sm btn-outline-danger text-uppercase"
+            >
+              decrement
+            </div>
+            <div
+              id="reset"
+              class="btn btn-sm btn-outline-secondary mx-3 text-uppercase"
+            >
+              Reset
+            </div>
+            <div
+              id="increment"
+              class="btn btn-sm btn-outline-success text-uppercase"
+            >
+              increment
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-light fixed-bottom">
+      <div class="container">
+        <div class="d-flex justify-content-center align-items-center pt-3">
+          <p class="small">@ 2022 jos-me</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/counter.js"></script>
+  </body>
+</html>
