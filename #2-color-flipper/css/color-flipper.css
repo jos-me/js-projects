@@ -1,0 +1,19 @@
+body {
+  background-color: #f1f5f8;
+  min-width: 500px;
+}
+.css-declaration {
+  background-color: darkslategray;
+}
+code,
+.selector {
+  color: silver;
+}
+
+.flipper {
+  height: 70vh;
+}
+
+.color {
+  color: #f1f5f8;
+}

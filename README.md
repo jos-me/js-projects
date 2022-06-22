@@ -7,6 +7,7 @@ This is the collection of all possible Javascript projects (from the internet) n
 - [Overview](#overview)
 - [Projects](#projects)
   - [Counter App](#1-counter-app)
+  - [Color Flipper](#2-color-flipper)
 
 ## Overview
 
@@ -55,3 +56,29 @@ In this project I practices
 
 - working with conditional statement
   - if..else if.. else
+
+### 2. Color Flipper
+
+- In this project I learn how to create a random text and background color changer.
+
+- With a single button press, this app will change the background color of a body and displaying name or hex value of corresponding color.
+
+- Also, output will be represented as css declaration block
+
+#### Key Learning Concepts
+
+In this project I practices
+
+- how to utilize button events (click) to connect to a function
+- working with DOM
+  - document.getElementById()
+  - document.querySelector()
+  - addEventListener()
+- Adding CSS styles to an element
+  - document.body.style.backgroundColor
+  - textContent property
+- Work with Math module and its methods
+  - Math.floor()
+  - Math.random()
+- Working with arrays
+  - array.length property
