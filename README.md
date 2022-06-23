@@ -8,6 +8,7 @@ This is the collection of all possible Javascript projects (from the internet) n
 - [Projects](#projects)
   - [Counter App](#1-counter-app)
   - [Color Flipper](#2-color-flipper)
+  - [click to copy](#3-click-to-copy)
 
 ## Overview
 
@@ -84,3 +85,20 @@ In this project I practices
   - Math.random()
 - Working with arrays
   - array.length property
+
+### 3. Click to Copy
+
+- Here, I uses a browser APIs[navigator.clipboard.writeText] to copy a selected text to the clipboard when button is clicked.
+
+#### Key Learning Concepts
+
+In this project I practices
+
+- working with navigator API
+
+  - clipboard.writeText() method
+
+- working with DOM
+  - document.querySelector()
+  - addEventListener()
+  - access child or Siblings nodes
