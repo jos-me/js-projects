@@ -1,0 +1,19 @@
+.copier {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.tool-tip_text {
+  width: max-content;
+  z-index: 1;
+}
+
+.tool-tip_text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 70%;
+  border-style: solid;
+  border-width: 6px;
+  border-color: #212529 transparent transparent transparent;
+}
