@@ -9,7 +9,8 @@ This is the collection of all possible Javascript projects (from the internet) n
   - [Counter App](#1-counter-app)
   - [Color Flipper](#2-color-flipper)
   - [Click to Copy](#3-click-to-copy)
-  - [Accordion]()
+  - [Accordion](#4-accordion)
+  - [Carousel](#5-carousel-reviews)
 
 ## Overview
 
@@ -106,7 +107,7 @@ In this project I practices
 
 ### 4. Accordion
 
-Accordion is a one collapsible components useful for create FAQ section of any website. The Header section on user-events control the visibility of the body content
+- Accordion is a one collapsible components useful for create FAQ section of any website. The Header section on user-events control the visibility of the body content
 
 ![screenshot](/%234-accordion/screenshot.png)
 
@@ -122,3 +123,19 @@ In this project I practices
 
 - Working with Array methods
   - forEach()
+
+### 5. Carousel Reviews
+
+- I create a carousel of reviews with a button that that change the reviews back and forth. This is a good feature to have on an ecommerce site to display customer reviews or a personal portfolio to display client reviews.
+
+![screenshot](/%235-casousel-reviews/screenshot.png)
+
+#### Key Learning Concepts
+
+In this project I practices
+
+- Working with objects and Array
+- DOMContentLoaded
+- addEventListener()
+- array.length
+- textContent

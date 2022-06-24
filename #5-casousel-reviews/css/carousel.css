@@ -1,0 +1,70 @@
+.container > div {
+    max-width: 450px;
+  }
+  
+  h2 ~ hr {
+    width: 10%;
+  }
+  
+  .fs-7 {
+    font-size: 0.9rem;
+  }
+  
+  .review {
+    position: relative;
+  }
+  
+  .btn-prev,
+  .btn-next {
+    position: absolute;
+    top: 40%;
+    cursor: pointer;
+    color: dodgerblue;
+    font-size: 1.3rem;
+    padding: 0 7px;
+    border-radius: 10%;
+    opacity: 0;
+    transition: all 250ms ease;
+    border: 1px solid lightblue;
+  }
+  
+  .review:hover .btn-prev,
+  .review:hover .btn-next {
+    opacity: 1;
+  }
+  
+  .btn-prev {
+    left: 2%;
+  }
+  
+  .review:hover .btn-prev {
+    transform: translateX(20%);
+  }
+  
+  .btn-next {
+    right: 2%;
+  }
+  
+  .review:hover .btn-next {
+    transform: translateX(-20%);
+  }
+  
+  .review img {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .notifier > * {
+    width: 28px;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 71%);
+    padding: 2.5px 5px;
+  }
+  
+  .notifier > .current {
+    width: 45px;
+    padding: 3px 0;
+    background-color: darksalmon;
+  }
+  

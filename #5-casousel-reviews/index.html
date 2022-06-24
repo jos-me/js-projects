@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/carousel.css" />
+    <title>Project Name | Javascript</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand navbar-light bg-light shadow">
+        <div class="container">
+          <h1 class="navbar-brand fs-6 mt-1">ProjectName</h1>
+
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="" class="nav-link me-3 fs-6">Prev</a>
+            </li>
+            <li class="nav-item"><a href="" class="nav-link fs-6">Next</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="mt-5 container">
+        <div class="mx-auto pt-5">
+          <div class="text-center mb-5">
+            <h2 class="text-black fs-3">Our Reviews</h2>
+            <hr class="border-bottom border-3 border-secondary mx-auto mt-0" />
+          </div>
+          <div class="review card px-5 pt-3 pb-2">
+            <div class="mx-auto">
+              <img
+                id="image"
+                src="https://i.pravatar.cc/"
+                alt=""
+                class="img-fluid rounded-circle"
+              />
+            </div>
+
+            <div class="text-center px-2 mt-3">
+              <h3 id="author" class="fs-6 mb-1 rounded-circle">John Doe</h3>
+              <h2 id="title" class="text-uppercase text-secondary mb-2 fs-7">
+                tech writer
+              </h2>
+              <p id="comment" class="fw-light text-black-50 fs-7">
+                Harum doloribus cupiditate quia liberocupiditate.Adipisicing
+                veritatis est commodi, deleniti aut earum consequuntur solutaest
+                commodi aut liberocupiditate
+              </p>
+            </div>
+            <span class="btn-prev">&lt;</span>
+            <span class="btn-next">&gt;</span>
+          </div>
+          <div class="text-center mt-2 notifier">
+            <span data-target="1" id="blink" class="d-inline-block"></span>
+            <span data-target="2" id="blink" class="d-inline-block"></span>
+            <span data-target="3" id="blink" class="d-inline-block"></span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-light fixed-bottom">
+      <div class="container">
+        <div class="d-flex justify-content-center align-items-center pt-3">
+          <p class="small">@ 2022 jos-me</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/carousel.js"></script>
+  </body>
+</html>
