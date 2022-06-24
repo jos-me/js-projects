@@ -1,0 +1,15 @@
+.accord-body {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.accord-body.active {
+  max-height: 15rem;
+  overflow: hidden;
+}
+
+/*  */
+
+span.active {
+  transform: rotate(45deg);
+}
