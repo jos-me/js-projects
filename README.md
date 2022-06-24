@@ -8,7 +8,8 @@ This is the collection of all possible Javascript projects (from the internet) n
 - [Projects](#projects)
   - [Counter App](#1-counter-app)
   - [Color Flipper](#2-color-flipper)
-  - [click to copy](#3-click-to-copy)
+  - [Click to Copy](#3-click-to-copy)
+  - [Accordion]()
 
 ## Overview
 
@@ -102,3 +103,22 @@ In this project I practices
   - document.querySelector()
   - addEventListener()
   - access child or Siblings nodes
+
+### 4. Accordion
+
+Accordion is a one collapsible components useful for create FAQ section of any website. The Header section on user-events control the visibility of the body content
+
+![screenshot](/%234-accordion/screenshot.png)
+
+#### Key Learning Concepts
+
+In this project I practices
+
+- Working with DOM
+
+  - Accessing Child or Sibling nodes
+  - Adding Event listeners
+  - window.matches()
+
+- Working with Array methods
+  - forEach()
